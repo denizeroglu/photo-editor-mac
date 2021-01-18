@@ -90,6 +90,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C017FA6225B506A600DFF5BF /* Build configuration list for PBXNativeTarget "PhotoEditor" */;
 			buildPhases = (
+				C017FA8125B5107400DFF5BF /* Swiftlint */,
 				C017FA4E25B506A500DFF5BF /* Sources */,
 				C017FA4F25B506A500DFF5BF /* Frameworks */,
 				C017FA5025B506A500DFF5BF /* Resources */,
@@ -149,6 +150,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C017FA8125B5107400DFF5BF /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C017FA4E25B506A500DFF5BF /* Sources */ = {
