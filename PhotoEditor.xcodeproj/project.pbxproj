@@ -13,6 +13,8 @@
 		C017FA5D25B506A600DFF5BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C017FA5C25B506A600DFF5BF /* Preview Assets.xcassets */; };
 		C017FA6C25B5073900DFF5BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C017FA6B25B5073900DFF5BF /* README.md */; };
 		C017FA6F25B5074700DFF5BF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C017FA6E25B5074700DFF5BF /* LICENSE */; };
+		C017FA7825B5091E00DFF5BF /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FA7725B5091E00DFF5BF /* ImageView.swift */; };
+		C017FA7B25B50AAA00DFF5BF /* SampleImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C017FA7A25B50AAA00DFF5BF /* SampleImages.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		C017FA5F25B506A600DFF5BF /* PhotoEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoEditor.entitlements; sourceTree = "<group>"; };
 		C017FA6B25B5073900DFF5BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C017FA6E25B5074700DFF5BF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C017FA7725B5091E00DFF5BF /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		C017FA7A25B50AAA00DFF5BF /* SampleImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SampleImages.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 		C017FA5425B506A500DFF5BF /* PhotoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				C017FA7A25B50AAA00DFF5BF /* SampleImages.xcassets */,
 				C017FA5525B506A500DFF5BF /* PhotoEditorApp.swift */,
+				C017FA7725B5091E00DFF5BF /* ImageView.swift */,
 				C017FA5725B506A500DFF5BF /* ContentView.swift */,
 				C017FA5925B506A600DFF5BF /* Assets.xcassets */,
 				C017FA5E25B506A600DFF5BF /* Info.plist */,
@@ -137,6 +143,7 @@
 				C017FA6C25B5073900DFF5BF /* README.md in Resources */,
 				C017FA5D25B506A600DFF5BF /* Preview Assets.xcassets in Resources */,
 				C017FA6F25B5074700DFF5BF /* LICENSE in Resources */,
+				C017FA7B25B50AAA00DFF5BF /* SampleImages.xcassets in Resources */,
 				C017FA5A25B506A600DFF5BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C017FA7825B5091E00DFF5BF /* ImageView.swift in Sources */,
 				C017FA5825B506A500DFF5BF /* ContentView.swift in Sources */,
 				C017FA5625B506A500DFF5BF /* PhotoEditorApp.swift in Sources */,
 			);

@@ -1,0 +1,15 @@
+{
+  "data" : [
+    {
+      "filename" : "Sample-1-Raw.ARW",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "compression-type" : "none"
+  }
+}
